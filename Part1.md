@@ -72,12 +72,33 @@ training:x:3800:3800::/home/training:/bin/bash
 
 #### b.Install a MySQl server
 
-##### 
-##### 
-##### 
-##### 
-##### 
-##### 
-##### 
-##### 
-##### 
+##### the hostname of database server
+
+##### the database server version
+MariaDB [(none)]> select version();
++----------------+
+| version()      |
++----------------+
+| 5.5.65-MariaDB |
++----------------+
+1 row in set (0.00 sec)
+
+##### all the databases in the server
+MariaDB [(none)]> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| amon               |
+| hue                |
+| mysql              |
+| nav                |
+| navms              |
+| oozie              |
+| performance_schema |
+| rman               |
+| scm                |
+| sentry             |
++--------------------+
+11 rows in set (0.00 sec)
+
