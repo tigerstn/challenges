@@ -1,4 +1,4 @@
-### compare each active account’s balance to the average balance of all active accounts
+### compare each active account’s balance to the average balance of all active accounts of the same type
 
 ####  hive -f solution.sql
 A100000	Basic Checking	Active	44539	5529.0
